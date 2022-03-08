@@ -12,6 +12,8 @@
 	<string>1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>TensorFlowLiteCCoreML</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 </dict>
