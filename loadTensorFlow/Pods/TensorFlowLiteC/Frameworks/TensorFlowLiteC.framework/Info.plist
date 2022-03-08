@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>tensorflow</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.tensorflow</string>
+	<string>org.tensorflow.TensorFlowLiteC</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CFBundleShortVersionString</key>
