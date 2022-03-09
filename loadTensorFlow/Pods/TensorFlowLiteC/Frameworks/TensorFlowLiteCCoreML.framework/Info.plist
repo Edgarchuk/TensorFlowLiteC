@@ -10,8 +10,6 @@
 	<string>1</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundlePackageType</key>
