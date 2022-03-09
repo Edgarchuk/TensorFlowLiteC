@@ -13,7 +13,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>TensorFlowLiteCMetal</string>
+	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 </dict>
