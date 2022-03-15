@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>TensorFlowLiteCCoreML</string>
     <key>CFBundleIdentifier</key>
-    <string>com.github.edgarchuk.TensorFlowLiteCCoreML</string>
+    <string>io.github.kewlbear.TensorFlowLiteCCoreML</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
