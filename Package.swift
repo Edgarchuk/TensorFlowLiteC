@@ -8,11 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "TensorFlowLiteC",
-            targets: ["TensorFlowLiteC", "TensorFlowLiteCCoreML", "TensorFlowLiteCMetal"]),
+            targets: ["TensorFlowLiteC", "TensorFlowLiteCCoreML", "TensorFlowLiteCMetal","Link"]),
     ],
     targets: [
         .binaryTarget(name: "TensorFlowLiteC", path: "TensorFlowLiteC.xcframework"),
         .binaryTarget(name: "TensorFlowLiteCCoreML", path: "TensorFlowLiteCCoreML.xcframework"),
-        .binaryTarget(name: "TensorFlowLiteCMetal", path: "TensorFlowLiteCMetal.xcframework")
+        .binaryTarget(name: "TensorFlowLiteCMetal", path: "TensorFlowLiteCMetal.xcframework"),
+        .target(name: "Link",
+                linkerSettings: [.linkedLibrary("c++")])
     ]
 )
